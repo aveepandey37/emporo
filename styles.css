@@ -1,0 +1,129 @@
+/* Add your CSS styles here */
+
+/* Reset default margin and padding */
+
+body {
+    background-color: #ffffff; /* Replace with your desired background color */
+}
+
+body, header, img {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header layout */
+header {
+    display: flex;
+    align-items: center; /* Vertically center elements */
+    background-color: #545454; /* Replace with your header background color */
+    color: #fff; /* Text color */
+    padding: 10px; /* Adjust padding as needed */
+}
+
+.header-left {
+    flex: 1; /* Takes up available space */
+}
+
+.header-right {
+    /* Add styles for the right side of the header */
+}
+
+#product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.product {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+}
+
+.product img {
+    max-width: 100%;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Add styles for the header content */
+.header-content {
+    display: flex;
+    justify-content: space-between; /* Space between header left and right */
+    align-items: center; /* Vertically center elements */
+}
+
+/* Add styles for the header content */
+.header-content {
+    display: flex;
+    justify-content: space-between; /* Space between header left and right */
+    align-items: center; /* Vertically center elements */
+}
+
+/* Add styles for the search bar */
+/* Add styles for the header content */
+.header-content {
+    display: flex;
+    justify-content: space-between; /* Space between header left and right */
+    align-items: center; /* Vertically center elements */
+}
+
+/* Add styles for the search bar */
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+/* Add styles for the header content */
+.header-content {
+    display: flex;
+    justify-content: space-between; /* Space between header left and right */
+    align-items: center; /* Vertically center elements */
+}
+
+/* Add styles for the search bar */
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+/* Style the input */
+.search-bar input[type="text"] {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Style the search button */
+.search-bar button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    margin-left: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add a smooth hover effect */
+}
+
+/* Change the button background color on hover */
+.search-bar button:hover {
+    background-color: #402171;
+}
+
+
+/* Adjust the position of the search bar */
+.header-right {
+    position: relative;
+    left: -700px; /* Adjust this value to move the search bar closer to the header image */
+}
